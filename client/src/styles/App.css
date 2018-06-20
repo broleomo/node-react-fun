@@ -1,0 +1,75 @@
+.top-nav-container {
+  padding-right: 10px;
+  font-weight: lighter;
+}
+.nav-bar {
+  display: flex;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 35px;
+}
+
+.home-header {
+  background-image: url("./images/couple_image.jpg");
+  height: 75vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: white;
+} 
+
+.header-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 300px;
+  padding-right: 50px;
+  border-radius: 2px;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.thankyou-page {
+  background-color:'#45CCBC';
+  color:'white';
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+} 
+
+html, body, #container, .carousel {
+	height:100%;
+	margin: 0;
+	width: 100%;
+}
+
+$theme-blue: #14B6D4;
+
+.image-slide {
+	height: 100%;
+	width: 100%;
+	transition: background-image .3s ease-in-out;
+}
+
+.slide-arrow {
+	color: $theme-blue;
+	cursor: pointer;
+	font-size: 2rem;
+	position: fixed;
+	top: 50%;
+}
+
+.slide-arrow.right {
+	right: 1rem;
+}
+
+.slide-arrow.left {
+	left: 1rem;
+}
+
