@@ -46,7 +46,14 @@
 html, body, #container, .carousel {
 	height:100%;
 	margin: 0;
-	width: 100%;
+  width: 100%;
+}
+.carousel {
+  display: flex;
+  flex-direction: column;
+  width: 100vh;
+  align-items: center;
+  justify-content: center;
 }
 
 $theme-blue: #14B6D4;
