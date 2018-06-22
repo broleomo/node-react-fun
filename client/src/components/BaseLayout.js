@@ -1,11 +1,6 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
-
 import '../styles/App.css';
-// import logo from './public/iron-glory-logo.png';
-
-import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem} from 'reactstrap';
-
 
 export default class BaseLayout extends Component {
   render(){

@@ -16,7 +16,7 @@ export default class Shoes extends Component {
               <Card style={{margin:'15px', padding:'10px'}}>
                 <img src="shoes.jpg" width="100%"  alt="image" />
                 <CardBlock>
-                  <CardTitle>Shoes 1</CardTitle>
+                  <CardTitle>Shoes</CardTitle>
                   <CardSubtitle>$40.00</CardSubtitle>
                 </CardBlock>
               </Card>
@@ -27,7 +27,7 @@ export default class Shoes extends Component {
                 <Card style={{margin:'15px', padding:'10px'}}>
                   <img src="shoes.jpg" width="100%"  alt="image" />
                   <CardBlock>
-                    <CardTitle>Shoes 1</CardTitle>
+                    <CardTitle>Shoes</CardTitle>
                     <CardSubtitle>$40.00</CardSubtitle>
                   </CardBlock>
                 </Card>
@@ -38,7 +38,7 @@ export default class Shoes extends Component {
                 <Card style={{margin:'15px', padding:'10px'}}>
                   <img src="shoes.jpg" width="100%"  alt="image" />
                   <CardBlock>
-                    <CardTitle>Shoes 1</CardTitle>
+                    <CardTitle>Shoes </CardTitle>
                     <CardSubtitle>$40.00</CardSubtitle>
                   </CardBlock>
                 </Card>
@@ -49,8 +49,8 @@ export default class Shoes extends Component {
                 <Card style={{margin:'15px', padding:'10px'}}>
                   <img src="shoes.jpg" width="100%"  alt="image" />
                   <CardBlock>
-                    <CardTitle>Shoes 1</CardTitle>
-                    <CardSubtitle>Shoes 1 Price</CardSubtitle>
+                    <CardTitle>Shoes</CardTitle>
+                    <CardSubtitle>$40.00</CardSubtitle>
                   </CardBlock>
                 </Card>
               </Link>
